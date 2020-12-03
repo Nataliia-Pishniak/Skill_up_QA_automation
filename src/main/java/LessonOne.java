@@ -1,4 +1,4 @@
-public class MyFirstProgram {
+public class LessonOne {
 
     public static void main(String[] args) {
         int x;
