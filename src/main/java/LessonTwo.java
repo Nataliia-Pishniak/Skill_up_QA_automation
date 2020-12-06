@@ -31,19 +31,20 @@ public class LessonTwo {
         System.out.println(bool);
         System.out.println(bool7);
         System.out.println(bool8);
-
+// IF
         if(a!=b || a>=b){
             System.out.println("Hello hello");
         }
 
+//IF ELSE
         if (a!=b){
-            System.out.println("Hello hello if2");
+            System.out.println("Hello a!=b");
 
         }else {
-            System.out.println("Hello hello else");
+            System.out.println("Hello else");
 
         }
-
+//IF ELSE ELSE IF
         if(e!=f || e>=c){
             System.out.println("Hello hello if 3");
         }else if (c==8) {
@@ -52,25 +53,32 @@ public class LessonTwo {
         System.out.println("Hello hello else if");
     }
 
-        switch (a){
-           case 5:
-                System.out.println("first case");
+        
+//SWITCH
+        int weather =2;
+        switch (weather)
+        {
+            case 0:
+                System.out.println("It is Sunny today!");
                 break;
-            case 10:
-                System.out.println("second case");
+            case 1:
+                System.out.println("It is Raining today!");
                 break;
-            case 15:
-                System.out.println("third case");
+            case 2:
+                System.out.println("It is Cloudy today!");
                 break;
-
+            //optional
+            default:
+                System.out.println("Invalid Input!");
         }
+
         int z = a>b ? 10:5;
         if(a>b){
             z=10;
         }else {
             z=15;
          }
-
+        System.out.println(z);
 
     }
 
