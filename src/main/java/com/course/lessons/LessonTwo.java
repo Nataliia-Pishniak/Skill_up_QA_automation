@@ -1,3 +1,5 @@
+package com.course.lessons;
+
 public class LessonTwo {
 
     public static void main(String[] args) {
@@ -53,7 +55,7 @@ public class LessonTwo {
         System.out.println("Hello hello else if");
     }
 
-        
+
 //SWITCH
         int weather =2;
         switch (weather)

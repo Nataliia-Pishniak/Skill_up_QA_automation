@@ -1,3 +1,5 @@
+package com.course.lessons;
+
 public class SB_HW {
 
     public static void main(String[] args) {
