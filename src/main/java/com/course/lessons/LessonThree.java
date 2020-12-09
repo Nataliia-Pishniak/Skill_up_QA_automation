@@ -11,7 +11,7 @@ public class LessonThree {
 
         }
 
-        int j = 6;
+        int j = 5;
 
 
 //While
@@ -26,6 +26,6 @@ public class LessonThree {
         do {
             System.out.println("Hello Do");
             j--;
-        } while ( i >0);
+        } while ( i >6);
     }
 }
