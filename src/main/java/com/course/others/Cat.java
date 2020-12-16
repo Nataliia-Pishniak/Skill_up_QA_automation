@@ -1,6 +1,8 @@
 package com.course.others;
 
- public class Cat extends Animal implements Action {
+import com.course.others.Interfaces.Action;
+
+public class Cat extends Animal implements Action {
 
      public Object makeNoise;
      private String name;

@@ -1,4 +1,4 @@
-package com.course.others;
+package com.course.others.Interfaces;
 
 public interface Action {
 

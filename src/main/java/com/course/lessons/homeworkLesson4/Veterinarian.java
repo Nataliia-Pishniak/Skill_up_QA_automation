@@ -4,7 +4,7 @@ public class Veterinarian  {
 
 
     public void treatAnimal (Animal patient){
-        System.out.println(patient.food + "; "+patient.location);
+        System.out.println(patient.getFood() + "; "+ patient.getLocation());
 
     }
 

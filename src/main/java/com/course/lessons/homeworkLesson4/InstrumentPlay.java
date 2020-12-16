@@ -4,12 +4,12 @@ public class InstrumentPlay {
 
     public static void main(String[] args) {
 
-        Instrument[] instruments = new Instrument[3];
-        instruments[0] = new Guitar(5);
-        instruments[1] = new DrumSet(7);
-        instruments[2] = new Trumpet(9);
+        Instruments[] inst_list = new Instruments[3];
+        inst_list[0] = new Guitar(5);
+        inst_list[1] = new DrumSet(7);
+        inst_list[2] = new Trumpet(9);
 
-    for (Instrument bbb:instruments){
+    for (Instruments bbb:inst_list){
             bbb.play();
     }
 

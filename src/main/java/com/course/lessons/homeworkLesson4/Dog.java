@@ -7,15 +7,15 @@ public class Dog extends Animal {
     public Dog(String food, String location) {
         super(food, location,"woof");
 
-        this.location = "Yard";
-        this.food = "Poddige";
-//            this.name = "Barsik";
+        this.setLocation("Yard");
+        this.setFood("Poddige");
+  //         this.name "Barsik";
 
     }
 
     @Override
     public void makeNoise() {
-        System.out.println("Dog asks for "+ food);
+        System.out.println("Dog asks for "+ getFood());
     }
 
     @Override

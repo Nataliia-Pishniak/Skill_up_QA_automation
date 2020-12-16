@@ -3,11 +3,9 @@ package com.course.lessons.homeworkLesson4;
 
 public class Animal {
 
-
-    public String food;
-    public String location;
-    public String voice;
-
+    private String food;
+    private String location;
+    private String voice;
 
     public Animal(String food, String location,String voice) {
         this.food = food;
@@ -29,7 +27,29 @@ public class Animal {
 
     }
 
+    public void setFood(String food) {
+        this.food = food;
+    }
 
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public void setVoice(String voice) {
+        this.voice = voice;
+    }
+
+    public String getFood() {
+        return food;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public String getVoice() {
+        return voice;
+    }
 }
 
 

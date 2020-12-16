@@ -7,14 +7,14 @@ public class Horse extends Animal {
     public Horse(String food, String location) {
         super(food, location,"eee ho hoo");
 
-        this.location = "Meadow";
-        this.food = "Grass";
+        this.setLocation("Meadow");
+        this.setFood("Grass");
 //        this.name = "Bonnya";
     }
 
     @Override
     public void makeNoise() {
-        System.out.println("Horse asks for " + food);
+        System.out.println("Horse asks for " + getFood());
     }
 
     @Override

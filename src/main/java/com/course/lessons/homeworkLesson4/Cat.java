@@ -5,15 +5,15 @@ public class Cat extends Animal{
     public String catFavourite = "Milk";
 
     public Cat(String food, String location) {
-        super(food,location,"meoww");
+        super(food,location,"meow");
 
-    this.location = "House";
-    this.food = "Mouse";
+    this.setLocation("House");
+        this.setFood("Mouse");
 
     }
     @Override
     public void makeNoise (){
-        System.out.println("Cat asks for " +food);
+        System.out.println("Cat asks for " + getFood());
     }
     @Override
 
