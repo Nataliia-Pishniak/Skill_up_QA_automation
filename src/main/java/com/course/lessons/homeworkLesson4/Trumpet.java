@@ -1,11 +1,10 @@
 package com.course.lessons.homeworkLesson4;
 
 public class Trumpet  implements Instruments{
-    public int diametr = 30;
+    private int qqq = 30;
 
     public Trumpet(int diametr) {
-
-        this.diametr = diametr;
+       this.qqq = diametr;
     }
 
 

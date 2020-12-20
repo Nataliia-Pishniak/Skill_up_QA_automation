@@ -12,17 +12,22 @@ import java.util.ArrayList;
 public class HeavyBoxDisplay {
 
     public static void main(String[] args) {
-        ArrayList<String> HeavyBox = new ArrayList<>();
+        ArrayList<HeavyBox> heavyBoxes = new ArrayList<>();
+        HeavyBox heavyBox1 = new HeavyBox("3");
+        HeavyBox heavyBox2 = new HeavyBox("5");
+        HeavyBox heavyBox3 = new HeavyBox("6");
 
-          HeavyBox.add("4");
-          HeavyBox.add("9");
-          HeavyBox.add("2");
-          HeavyBox.remove(2);
+        heavyBoxes.add(heavyBox1);
+        heavyBoxes.add(heavyBox2);
+        heavyBoxes.add(heavyBox3);
+       // heavyBoxes.remove(2);
 
-        HeavyBox.set(0,"88");
-        HeavyBox.clear();
-        System.out.println(HeavyBox.get(0));
-        System.out.println(HeavyBox);
+     //   heavyBoxes.set(0,"88");
+        heavyBoxes.get(0).setWeight("1");
+
+        heavyBoxes.clear();
+        System.out.println(heavyBoxes.get(0));
+        System.out.println(heavyBoxes);
     }
 
 }

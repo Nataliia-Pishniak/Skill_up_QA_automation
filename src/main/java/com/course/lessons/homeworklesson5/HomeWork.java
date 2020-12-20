@@ -8,9 +8,9 @@ package com.course.lessons.homeworklesson5;
 public class HomeWork {
     public static void main(String[] args) {
 
-        General<String, String, String> case1 = new General <>();
-        General<String, Integer, Double> case2 = new General <>();
-        General<String, Integer, String> case3 = new General <>();
+        General<String, String, String> case1 = new General <String, String, String> ("4","A", "U");
+        General<String, Integer, Double> case2 = new General <String, Integer, Double>("5",8,9.0);
+        General<String, Integer, String> case3 = new General <String, Integer, String>("hh",2,"jjj");
 
         String[] people = {"Anna", "Alice", "Alla"};
         Integer[] numbers = {12, 342, 554, 24};

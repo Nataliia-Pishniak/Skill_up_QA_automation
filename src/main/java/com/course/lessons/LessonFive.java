@@ -65,8 +65,6 @@ public class LessonFive<Intenger> {
         Account<String> acc = new Account<>("33");
         HashMap<String, Account<String>> dictionary = new HashMap<>();
 
-
-
         dictionary.put(acc.getId(), acc);
 
 //        dictionary.put("Value", 33);

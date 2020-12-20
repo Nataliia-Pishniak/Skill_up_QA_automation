@@ -7,7 +7,7 @@ public class General <T, V, K> {
     private  V value;
     private  K key;
 
-    public General() {
+    public General(T type, V value,K key) {
         this.type = type;
         this.value = value;
         this.key = key;
@@ -36,11 +36,6 @@ public class General <T, V, K> {
     public void setKey(K key) {
         this.key = key;
     }
-
-
-
-
-
 
 
 }
