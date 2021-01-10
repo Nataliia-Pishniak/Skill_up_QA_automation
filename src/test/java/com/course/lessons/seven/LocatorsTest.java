@@ -9,13 +9,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-
-
-public class LinkedinTest {
-
+public class LocatorsTest {
 
         private WebDriver driver;
-
 
         @BeforeTest
         public void setUpTest (){
@@ -27,7 +23,6 @@ public class LinkedinTest {
 //      name ==>P2
 //      CSS, xpath ==> P3
 //
-
         @Test
         public void test(){
             driver.get( "https://www.linkedin.com/signup/cold-join");
