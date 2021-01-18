@@ -9,7 +9,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 
-public abstract class Basetest<linkedinLoginPage> {
+abstract class Basetest<linkedinLoginPage> {
 
     private WebDriver driver;
     protected LinkedinLoginPage linkedinLoginPage;

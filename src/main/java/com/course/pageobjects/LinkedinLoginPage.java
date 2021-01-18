@@ -10,9 +10,6 @@ public class LinkedinLoginPage extends BasePage {
 
     private WebDriver driver;
 
-//    private WebElement emailFld = driver.findElement(By.xpath("//*[@id='session_key']"));
-//    private WebElement passwordFld = driver.findElement(By.xpath("//*[@id='session_password']"));
-//    private WebElement signinBtn = driver.findElement(By.xpath("//*[@class='sign-in-form__submit-button']"));
 
     @FindBy(xpath = "//*[@id='session_key']")
     private WebElement emailFld;

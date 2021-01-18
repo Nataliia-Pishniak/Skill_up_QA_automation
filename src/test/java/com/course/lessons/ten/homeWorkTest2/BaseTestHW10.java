@@ -1,6 +1,7 @@
-package com.course.lessons.eight.homework;
+package com.course.lessons.ten.homeWorkTest2;
 
-import com.course.pageobjects.homeworkLesson8.PhpTravelPage;
+
+import com.course.pageobjects.homeworkLesson10Test1.theInternet;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,10 +10,9 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 
-public abstract class BaseTestHW {
-
+public abstract class BaseTestHW10  {
     private WebDriver driver;
-    protected PhpTravelPage phpTravelPage;
+    protected theInternet theInternet ;
     private String browser = "chrome";
 
 
@@ -34,7 +34,7 @@ public abstract class BaseTestHW {
             default:
                 throw new Exception("Browser " + browser + " is not supported");
         }
-         phpTravelPage = new PhpTravelPage(driver);
+        theInternet = new theInternet(driver);
 
     }
     @AfterMethod
@@ -43,3 +43,4 @@ public abstract class BaseTestHW {
             driver.quit();
         }       }
 }
+
