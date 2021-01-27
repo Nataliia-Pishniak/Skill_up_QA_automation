@@ -1,17 +1,19 @@
 package com.course.lessons.eight;
 
 
+import com.course.lessons.BaseTest;
 import org.testng.annotations.Test;
 
-public class LinkedInTest extends Basetest{
+public class LinkedInTest extends BaseTest {
 
 
     @Test
     public void linkedinTest (){
-
-        linkedinLoginPage.getPage();
-        linkedinLoginPage.login("Test","Test");
-        System.out.println();
+//
+//        linkedinHomePage.getPage();
+//  //      linkedinSignInPage = linkedinHomePage.clickSignIn();
+//        linkedinLoginPage.login("Test","Test");
+//        System.out.println();
 
     }
 

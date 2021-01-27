@@ -1,5 +1,6 @@
 package com.course.lessons.ten;
 
+import com.course.lessons.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;

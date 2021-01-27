@@ -3,8 +3,9 @@
 <suite name="BasicSuite1" verbose="1" >
     <test name="UITests" >
         <classes>
+            <class name="com.course.lessons.ten.homeWorkTest1.TheInternetCollection"/>
+            <class name="com.course.lessons.ten.homeWorkTest2.TheInternetCollection2"/>
 
-            <class name="com.course.lessons.ten.TestLessonTen"/>
         </classes>
     </test>
 
