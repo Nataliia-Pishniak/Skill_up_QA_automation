@@ -1,6 +1,6 @@
 package com.course.lessons.ten.homeWorkTest2;
 
-import com.course.pageobjects.homeworkLesson10Test2.TheInternet2;
+import com.course.pageobjects.homeworks.homeworkLesson10Test2.TheInternet2;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -24,7 +24,7 @@ public abstract class BaseTestHW102  {
     @BeforeSuite
     public void setup () throws IOException {
         props = new Properties();
-        props.load(new FileInputStream( "/Users/nataliiap/Documents/repo_test/Skill_up_QA_automation/src/main/resources/"+System.getProperty("ENV") +".properties"));
+        props.load(new FileInputStream( "/Users/nataliiap/Documents/repo_test/Skill_up_QA_automation/src/main/resources/properties/"+System.getProperty("ENV") +".properties"));
     }
 
     @BeforeTest

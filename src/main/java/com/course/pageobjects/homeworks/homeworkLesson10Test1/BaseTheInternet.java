@@ -1,4 +1,4 @@
-package com.course.pageobjects.homeworkLesson10Test1;
+package com.course.pageobjects.homeworks.homeworkLesson10Test1;
 
 
 public abstract class BaseTheInternet{

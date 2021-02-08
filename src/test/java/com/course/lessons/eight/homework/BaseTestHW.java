@@ -1,6 +1,6 @@
 package com.course.lessons.eight.homework;
 
-import com.course.pageobjects.homeworkLesson8.PhpTravelPage;
+import com.course.pageobjects.homeworks.homeworkLesson8.PhpTravelPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

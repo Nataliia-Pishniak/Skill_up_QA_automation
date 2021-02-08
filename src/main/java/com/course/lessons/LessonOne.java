@@ -36,8 +36,15 @@ public class LessonOne {
         String file2 = "Hello December\nHello Winter 2020";
         System.out.println(file2);
 
+        int ab = 42;
+        StringBuilder sb = new StringBuilder(40);
+
+        String s = sb.append("a = ").append(ab).append("!").toString();
+        System.out.println(s);
+    }
+
 
     }
-}
+
 
 

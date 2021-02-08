@@ -1,4 +1,4 @@
-package com.course.pageobjects.homeworkLesson10Test1;
+package com.course.pageobjects.homeworks.homeworkLesson10Test1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

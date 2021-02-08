@@ -1,4 +1,4 @@
-package com.course.pageobjects.homeworkLesson8;
+package com.course.pageobjects.homeworks.homeworkLesson8;
 // С помощью Page Object и Page Factory открыть https://phptravels.org/,
 // перейти в раздел Store -> Mobile,
 // выбрать чекбокc Hybrid Applications и нажать Continue,

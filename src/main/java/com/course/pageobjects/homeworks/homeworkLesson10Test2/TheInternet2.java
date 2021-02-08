@@ -1,10 +1,10 @@
-package com.course.pageobjects.homeworkLesson10Test2;
+package com.course.pageobjects.homeworks.homeworkLesson10Test2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
+import static org.assertj.core.api.Assertions.assertThat;
 
     public class TheInternet2 extends BaseTheInternet2{
 
@@ -49,10 +49,10 @@ import org.testng.Assert;
     public void warningMessage2 (){
         message2.getText();
         System.out.println(message2.getText());
-        String ActualText = message2.getText();
-        String ExpectedText ="You logged into a secure area!\n" +
-                "×";
-        Assert.assertEquals(ExpectedText, ActualText);
+        String actualText = message2.getText();
+        String expectedText ="You logged into a secure area!";
+//        Assert.assertEquals(ExpectedText, ActualText);
+        assertThat(actualText).as("test text").contains(expectedText);
 
     }
 

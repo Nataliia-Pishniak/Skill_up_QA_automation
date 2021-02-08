@@ -1,16 +1,19 @@
 package com.course.lessons.nine;
 
+import com.course.lessons.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class MvnTest {
-    @Parameters({"first-name"})
+public class MvnTest extends BaseTest {
+
+   @Parameters({"first-name"})
     @Test
-    public void testOne(String fristName) {
+    public void testOne(String firstName) {
+
         long threadId = Thread.currentThread().getId();
         System.out.println("First test thread: " + threadId);
-        Assert.assertEquals(5, 6);
+        Assert.assertEquals(5, 5);
     }
 
     @Test

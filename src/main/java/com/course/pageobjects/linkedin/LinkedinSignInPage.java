@@ -1,5 +1,6 @@
-package com.course.pageobjects;
+package com.course.pageobjects.linkedin;
 
+import com.course.pageobjects.rozetka.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,7 +20,7 @@ public class LinkedinSignInPage extends BasePage {
     private WebDriver driver;
 
     public LinkedinSignInPage(WebDriver driver) {
-    //    super(driver);
+        super(driver);
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
@@ -29,9 +30,10 @@ public class LinkedinSignInPage extends BasePage {
         driver.get("https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin");
     }
 
-    public void signIn(String email, String pass) {
+    public LinkedinMainPage signIn(String email, String pass) {
         userName.sendKeys(email);
         password.sendKeys(pass);
         signIn.click();
+        return new LinkedinMainPage(driver);
     }
 }

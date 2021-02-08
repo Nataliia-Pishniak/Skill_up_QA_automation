@@ -1,5 +1,6 @@
-package com.course.pageobjects;
+package com.course.pageobjects.linkedin;
 
+import com.course.pageobjects.rozetka.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,7 +13,7 @@ public class LinkedinHomePage extends BasePage {
     private WebDriver driver;
 
     public LinkedinHomePage(WebDriver driver) {
-       // super(driver);
+        super(driver);
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
